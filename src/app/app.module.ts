@@ -8,6 +8,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { HomeHeaderComponent } from './pages/home/home-header/home-header.component';
 import { HomeInfoItemsComponent } from './components/home-info-items/home-info-items.component';
 import { MenusCoctailsComponent } from './pages/home/menus-coctails/menus-coctails.component';
+import { HomeComponent } from './pages/home/home.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { MenusCoctailsComponent } from './pages/home/menus-coctails/menus-coctai
     HomeHeaderComponent,
     HomeInfoItemsComponent,
     MenusCoctailsComponent,
+    HomeComponent,
   ],
   imports: [
     BrowserModule,

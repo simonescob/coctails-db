@@ -4,5 +4,15 @@
 @tailwind utilities;
 
 .btn-cta{
-  @apply bg-gree-clear text-txt-primary pl-5 p-3 text-2xl rounded-full shadow-md shadow-[#5da4a8]
+  @apply bg-green-clear text-txt-primary pl-5 p-3 text-2xl rounded-full shadow-md shadow-[#5da4a8]
+}
+
+.triangle {
+  width: 93%;
+  height: 0;
+  border-left: 1090px solid transparent;
+  border-right: 0px solid transparent;
+  border-bottom: 200px solid #475751; /* Replace 'red' with your desired color */
+  border-top-right-radius: 90px;
+  // transform: rotate(148deg);
 }

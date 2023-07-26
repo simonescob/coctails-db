@@ -1,40 +1,28 @@
-<div class="flex justify-center items-center w-full mb-10">
-  <div class="flex max-w-7xl w-full relative justify-center items-center">
+<div class="flex justify-center items-center relative mb-20">
+  <img class="absolute" src="assets/images/Lineas-fondo.png" alt="">
 
-    <img class="absolute" src="assets/images/Lineas-fondo.png" alt="">
-
-    <div class="w-1/3 space-y-7 z-10">
-
-      <h2 class="font-bold text-6xl text-txt-primary">
-        Drink of the <br> moment
-      </h2>
-
-      <div class="text-txt-primary">
-        Gin, also known as gin, is one of the most popular and appreciated alcoholic beverages worldwide, especially for its versatility in cocktails. Originally from Europe, this spirit has evolved over the centuries and comes in a wide range of styles and flavors
-      </div>
-
-      <p class="text-5xl text-txt-primary">4.9</p>
-
-      <button class="flex items-center btn-cta">
-        Try now
-        <span class="bg-gree-complement px-3 pb-2 rounded-full ml-8 text-white"> > </span>
-      </button>
-
+  <div class="w-1/3 space-y-7 z-10">
+    <h2 class="font-bold text-6xl text-txt-primary">
+      Drink of the <br> moment
+    </h2>
+    <div class="text-txt-primary">
+      Gin, also known as gin, is one of the most popular and appreciated alcoholic beverages worldwide, especially for its versatility in cocktails. Originally from Europe, this spirit has evolved over the centuries and comes in a wide range of styles and flavors
     </div>
+    <p class="text-5xl text-txt-primary">4.9</p>
+    <button class="flex items-center btn-cta">
+      Try now
+      <span class="bg-green-complement px-3 pb-2 rounded-full ml-8 text-white"> > </span>
+    </button>
+  </div>
 
-    <div class="w-1/3 z-10">
-
-      <div class="flex justify-center items-center w-full py-12 bg-gree-clear rounded-full">
-        <img src="assets/images/Botella-Gin-centro.png" alt="">
-      </div>
-
+  <div class="w-1/3 z-10">
+    <div class="flex justify-center items-center w-full py-12 bg-green-clear rounded-full">
+      <img src="assets/images/Botella-Gin-centro.png" alt="">
     </div>
+  </div>
 
-    <div class="w-1/3 pl-32 z-10">
-
-      <app-home-info-items *ngFor="let item of items" [info]="item"></app-home-info-items>
-
-    </div>
-
+  <div class="w-1/3 pl-32 z-10">
+    <app-home-info-items *ngFor="let item of items" [info]="item"></app-home-info-items>
   </div>
 </div>
+
