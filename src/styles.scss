@@ -2,3 +2,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.btn-cta{
+  @apply bg-[#a1dbc3] text-txt-primary pl-5 p-3 text-2xl rounded-full shadow-md shadow-[#5da4a8]
+}
