@@ -12,6 +12,8 @@ import { MenusCoctailsComponent } from './pages/home/menus-coctails/menus-coctai
 import { HomeComponent } from './pages/home/home.component';
 import { CoctailItemComponent } from './components/coctail-item/coctail-item.component';
 import { CoctailListComponent } from './components/coctail-list/coctail-list.component';
+import { CoctailDetailComponent } from './components/coctail-detail/coctail-detail.component';
+import { DetailsComponent } from './pages/details/details.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +26,8 @@ import { CoctailListComponent } from './components/coctail-list/coctail-list.com
     HomeComponent,
     CoctailItemComponent,
     CoctailListComponent,
+    CoctailDetailComponent,
+    DetailsComponent,
   ],
   imports: [
     BrowserModule,
