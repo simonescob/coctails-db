@@ -10,6 +10,8 @@ import { HomeHeaderComponent } from './pages/home/home-header/home-header.compon
 import { HomeInfoItemsComponent } from './components/home-info-items/home-info-items.component';
 import { MenusCoctailsComponent } from './pages/home/menus-coctails/menus-coctails.component';
 import { HomeComponent } from './pages/home/home.component';
+import { CoctailItemComponent } from './components/coctail-item/coctail-item.component';
+import { CoctailListComponent } from './components/coctail-list/coctail-list.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +22,8 @@ import { HomeComponent } from './pages/home/home.component';
     HomeInfoItemsComponent,
     MenusCoctailsComponent,
     HomeComponent,
+    CoctailItemComponent,
+    CoctailListComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,6 +1,64 @@
-<div class="relative flex flex-col items-end">
+<div class="relative mb-32">
 
-  <div class="relative triangle"></div>
-  <div class="bg-green-dark w-full h-[800px] rounded-b-[80px] rounded-s-[100px]"></div>
+  <div class="flex justify-center w-full absolute top-8 z-10">
+    <app-coctail-list [coctails]="popDrinks"></app-coctail-list>
+  </div>
+
+  <div class="relative flex flex-col items-end">
+    <div class="relative triangle"></div>
+    <div class="bg-green-dark w-full h-[900px] rounded-b-[80px] rounded-s-[100px]"></div>
+  </div>
+
+</div>
+
+<div class="relative mb-32">
+
+  <div class="flex justify-center w-full absolute top-8 z-10">
+    <app-coctail-list [coctails]="popIngres"></app-coctail-list>
+  </div>
+
+  <div class="relative flex flex-col items-start">
+    <div class="relative triangle-2"></div>
+    <div class="bg-[#574747] w-full h-[500px] rounded-b-[80px] rounded-e-[100px]"></div>
+  </div>
+
+</div>
+
+<div class="relative mb-32">
+
+  <div class="flex justify-center w-full absolute top-8 z-10">
+    <app-coctail-list [coctails]="latestDrinks"></app-coctail-list>
+  </div>
+
+  <div class="relative flex flex-col items-end">
+    <div class="relative triangle"></div>
+    <div class="bg-green-dark w-full h-[900px] rounded-b-[80px] rounded-s-[100px]"></div>
+  </div>
+
+</div>
+
+<div class="relative mb-32">
+
+  <div class="flex justify-center w-full absolute top-8 z-10">
+    <app-coctail-list [coctails]="randomIngres"></app-coctail-list>
+  </div>
+
+  <div class="relative flex flex-col items-start">
+    <div class="relative triangle-2"></div>
+    <div class="bg-[#574747] w-full h-[500px] rounded-b-[80px] rounded-e-[100px]"></div>
+  </div>
+
+</div>
+
+<div class="relative ">
+
+  <div class="flex justify-center w-full absolute top-8 z-10">
+    <app-coctail-list [coctails]="randomDrinks"></app-coctail-list>
+  </div>
+
+  <div class="relative flex flex-col items-end">
+    <div class="relative triangle"></div>
+    <div class="bg-green-dark w-full h-[900px] rounded-b-[80px] rounded-s-[100px]"></div>
+  </div>
 
 </div>

@@ -12,6 +12,11 @@ module.exports = {
         "green-complement": "#5da4a8",
         "green-clear": "#a1dbc3",
         "green-dark": "#475751",
+
+        "pink-drink": "#dfbed8",
+        "green-drink": "#c5dba1",
+        "skin-drink": "#dab5a0",
+
       }
     },
   },

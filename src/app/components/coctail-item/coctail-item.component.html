@@ -1,0 +1,21 @@
+<div class="flex flex-col items-center text-center">
+
+  <div *ngIf="coctail.circleColor === 'pink'" class="mb-3 p-2 bg-pink-drink rounded-full">
+    <img width="180" height="180" src="{{ coctail.img }}" alt="">
+  </div>
+
+  <div *ngIf="coctail.circleColor === 'green'" class="mb-3 p-2 bg-green-drink rounded-full">
+    <img width="180" height="180" src="{{ coctail.img }}" alt="">
+  </div>
+
+  <div *ngIf="coctail.circleColor === 'skin'" class="mb-3 p-2 bg-skin-drink rounded-full">
+    <img width="180" height="180" src="{{ coctail.img }}" alt="">
+  </div>
+
+  <!-- <p class="">{{ coctail.circleColor }}</p> -->
+
+  <h2 class="font-bold text-white capitalize mb-3">{{ coctail.name }}</h2>
+
+  <p class="font-bold text-white/60" *ngIf=" coctail.added === false "> Add to my list </p>
+
+</div>
