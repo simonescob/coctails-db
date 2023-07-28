@@ -1,1 +1,17 @@
-<p>coctail-detail works!</p>
+<div class="flex items-center mb-20">
+
+  <div class="text-center mr-10">
+    <h2 class="text-4xl font-bold mb-5">{{ details.name }}</h2>
+    <img class="rounded-full bg-green-clear p-3" width="700" src="{{ details.img }}" alt="">
+  </div>
+
+  <div class="w-full">
+    <h2 class="text-3xl font-bold pl-16 mb-10">Ingredientes</h2>
+    <div class="grid grid-cols-3 gap-y-16">
+
+      <app-ingredient-item *ngFor="let ingredient of ingredients" [ingredient]="ingredient"></app-ingredient-item>
+
+    </div>
+  </div>
+
+</div>

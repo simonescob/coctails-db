@@ -3,4 +3,6 @@ export interface Coctail {
   img: string,
   added: boolean,
   circleColor: string,
+  id: number,
+  isCoctail: boolean
 }

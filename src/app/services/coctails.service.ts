@@ -20,4 +20,16 @@ export class CoctailsService {
     return this.http.get(this.url + `lookup.php?i=${id}`);
   }
 
+  getIngredientDetail(id: number){
+    return this.http.get(this.url + `lookup.php?iid=${id}`);
+  }
+
+  getIngredientDetailByName(name: string){
+    return this.http.get(this.url + `filter.php?i=${name}`);
+  }
+
+  getIngredientName(name: string){
+    return this.http.get(this.url + `search.php?i=${name}`);
+  }
+
 }

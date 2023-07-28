@@ -14,6 +14,7 @@ import { CoctailItemComponent } from './components/coctail-item/coctail-item.com
 import { CoctailListComponent } from './components/coctail-list/coctail-list.component';
 import { CoctailDetailComponent } from './components/coctail-detail/coctail-detail.component';
 import { DetailsComponent } from './pages/details/details.component';
+import { IngredientItemComponent } from './components/ingredient-item/ingredient-item.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import { DetailsComponent } from './pages/details/details.component';
     CoctailListComponent,
     CoctailDetailComponent,
     DetailsComponent,
+    IngredientItemComponent,
   ],
   imports: [
     BrowserModule,

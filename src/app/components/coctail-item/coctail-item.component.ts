@@ -1,4 +1,5 @@
 import { Component, Input } from '@angular/core';
+import { Router } from '@angular/router';
 import { Coctail } from './coctail.type';
 
 @Component({
@@ -13,6 +14,16 @@ export class CoctailItemComponent {
     img: '',
     added: false,
     circleColor: '',
+    isCoctail: true,
+    id: 0,
+  }
+
+  constructor(
+    private router: Router,
+  ){}
+
+  goToDetail(coctail: Coctail){
+    this.router.navigate(['detail', coctail.id, 'type', coctail.isCoctail === true ? 'drink' : 'ingredient' ])
   }
 
 }
